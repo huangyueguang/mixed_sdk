@@ -1,0 +1,24 @@
+{
+    "name": "grace-team-work/mixed_sdk",
+    "description": "mixed_sdk includes login SDK and recharge SDK and other SDK for various game channels, etc",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huangyueguang",
+            "email": "1218199594@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "MixedSDK\\": "src/",
+            "channels\\": "src/channels/",
+            "core\\": "src/core/"
+        }
+    },
+    "require": {
+        "php-curl-class/php-curl-class": "@dev"
+    }
+}
